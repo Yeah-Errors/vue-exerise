@@ -6,8 +6,8 @@
     <script type="text/javascript">
       // Redirect all 404s to index.html
       const l = window.location;
-      const base = l.protocol + '//' + l.host + '/';
-      l.replace(base + '#' + l.pathname + l.search + l.hash);
+      const base = l.protocol + '//' + l.host ;
+      l.replace(base +l.pathname + l.search + l.hash);
     </script>
   </head>
   <body>
