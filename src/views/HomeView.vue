@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <a href="/login">登录页面</a>
+    <a href="/#/login">登录页面</a>
   </div>
 </template>
 
